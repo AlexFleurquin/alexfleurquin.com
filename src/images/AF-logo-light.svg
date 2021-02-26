@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="af-logo-light-a" x1="96.924%" x2="50%" y1="-133.961%" y2="100%">
+      <stop offset="0%" stop-color="#FCDFBF"/>
+      <stop offset="100%" stop-color="#F8BC8B"/>
+    </linearGradient>
+    <polygon id="af-logo-light-b" points=".259 .018 13.117 .018 13.117 5.425 .259 5.425"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#af-logo-light-a)" fill-rule="nonzero" d="M15.5,0 L0,32 L5.73477943,32 L8.36997615,26.6398985 L10.9276759,21.3597939 L15.5,11.9601554 L20.0335756,21.3597939 L25.8461501,21.3597939 L15.5,0 Z M22.6690704,26.6798969 L25.226174,32 L31,32 L31,31.9993846 L28.4038499,26.6798969 L22.6690704,26.6798969 Z"/>
+    <g transform="translate(1)">
+      <path fill="#F8BC8B" fill-rule="nonzero" d="M2.61651923,21.5037621 L0.00834615385,26.909969 L13.3711346,26.909969 C13.8650481,26.909969 14.2653654,26.4928655 14.2653654,25.9789345 L14.2653654,22.4347966 C14.2653654,21.9205552 13.8650481,21.5037621 13.3711346,21.5037621 L2.61651923,21.5037621 Z"/>
+      <g transform="translate(17.288)">
+        <mask id="af-logo-light-c" fill="#fff">
+          <use xlink:href="#af-logo-light-b"/>
+        </mask>
+        <path fill="#F8BC8B" fill-rule="nonzero" d="M13.1167558,0.949468966 L13.1167558,4.4936069 C13.1167558,5.00567586 12.7140538,5.42464138 12.222525,5.42464138 L3.46740962,5.42464138 L0.258909615,0.0184344828 L12.222525,0.0184344828 C12.7140538,0.0184344828 13.1167558,0.4374 13.1167558,0.949468966" mask="url(#af-logo-light-c)"/>
+      </g>
+      <polygon fill="#F8BC8B" fill-rule="nonzero" points="20.078 .018 25.232 5.425 22.683 5.418"/>
+      <polygon fill="#F8BC8B" fill-rule="nonzero" points="11.491 26.909 14.265 26.91 14.265 21.504"/>
+    </g>
+  </g>
+</svg>
