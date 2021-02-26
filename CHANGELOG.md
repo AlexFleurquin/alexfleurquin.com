@@ -1,5 +1,6 @@
 # CHANGELOG.md
 
-## [1.0.0] - 2020-12-18
+## [1.0.0] - 2021-02-26
 
-First release
+Première release
+- Ajout des premières pages du site
