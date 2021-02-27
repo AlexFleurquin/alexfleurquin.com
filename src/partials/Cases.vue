@@ -8,7 +8,7 @@
           <!-- 1st article -->
           <article class="relative group px-6 py-4 sm:py-8" data-aos="fade-up" data-aos-anchor="[data-aos-id-featposts]" data-aos-delay="100">
             <figure>
-              <img class="absolute inset-0 w-full h-full rounded-md object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/bg-case-1.jpg')" width="258" height="154" alt="Related post 03" />
+              <img class="absolute inset-0 w-full h-full rounded-md object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/Bourosrama_case.png')" width="258" height="154" alt="Related post 03" />
               <div class="absolute inset-0 bg-gray-900 rounded-md opacity-75 group-hover:opacity-50 transition duration-700 ease-out" aria-hidden="true"></div>
             </figure>
             <div class="relative flex flex-col h-full text-white">
@@ -28,7 +28,7 @@
           <!-- 2nd article -->
           <article class="relative group px-6 py-4 sm:py-8 rounded-md" data-aos="fade-up" data-aos-anchor="[data-aos-id-featposts]" data-aos-delay="200">
             <figure>
-              <img class="absolute inset-0 w-full rounded-md h-full object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/related-post-04.jpg')" width="258" height="154" alt="Related post 04" />
+              <img class="absolute inset-0 w-full rounded-md h-full object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/Shild_case.jpg)" width="258" height="154" alt="Related post 04" />
               <div class="absolute inset-0 rounded-md bg-gray-900 opacity-75 group-hover:opacity-50 transition duration-700 ease-out" aria-hidden="true"></div>
             </figure>
             <div class="relative flex flex-col h-full text-white">
