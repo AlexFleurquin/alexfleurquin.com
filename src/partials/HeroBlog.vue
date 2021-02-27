@@ -17,10 +17,9 @@
               <!-- Title and excerpt -->
               <div class="text-center md:text-left">
                 <router-link to="/blog-post">
-                  <h3 class="h3 font-red-hat-display mb-4">Mes plus beaux</h3>
-                  <h1 class="h1 font-red-hat-display mb-4">projets</h1>
+                  <h2 class="h2 font-red-hat-display mb-4">Projets</h2>
                 </router-link>
-                <p class="text-base text-gray-600 dark:text-gray-400">Curious about how your favorite product was created? Hear from the team about how it was built, and how continued improvements are made.</p>
+                
               </div>
               <!-- Article meta -->
               <div class="md:flex md:items-center md:justify-between mt-5">

@@ -79,7 +79,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Ubuntu', 'sans-serif'],
-        sans: ['Heebo', 'sans-serif'],
+        body: ['Heebo', 'sans-serif'],
+        display: ['Ubuntu', 'sans-serif'],
+        
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1.5' }],

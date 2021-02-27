@@ -14,8 +14,7 @@
 
       <!-- Page sections -->
       <HeroHome />
-      <Stats />
-      <Timeline />
+      <Cases />
 
     </main>
 
@@ -29,8 +28,7 @@
 import Header from './../partials/Header.vue'
 import PageIllustration from './../partials/PageIllustration.vue'
 import HeroHome from './../partials/HeroHome.vue'
-import Stats from './../partials/Stats'
-import Timeline from './../partials/Timeline'
+import Cases from './../partials/Cases'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -39,8 +37,7 @@ export default {
     Header,
     PageIllustration,
     HeroHome,
-    Stats,
-    Timeline,
+    Cases,
     Footer,
   },
 }

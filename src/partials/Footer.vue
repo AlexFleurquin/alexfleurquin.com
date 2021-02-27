@@ -1,7 +1,7 @@
 <template>
   <footer class="relative">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-16 border-t border-gray-200 dark:border-gray-800 -mt-px">
+      <div class="py-12 md:py-16 -mt-px">
 
         <!-- Footer illustration -->
         <div class="pointer-events-none -z-1" aria-hidden="true">
