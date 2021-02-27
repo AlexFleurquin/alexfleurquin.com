@@ -20,7 +20,8 @@ import PageNotFound from './pages/PageNotFound.vue'
 const routes = [
   {
     path: '/',
-    component: Home
+    component: Home,
+    meta:{title: 'hello'}
   },
   {
     path: '/testimonials',
