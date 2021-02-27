@@ -12,7 +12,7 @@
               <br>
               <span class="bg-gradient-to-r text-transparent bg-clip-text from-purple-400 to-green-500">FLEURQUIN</span>
             </h1>
-            <p class="font-body font-bold text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Consultant AMOA</p>
+            <p class="font-display font-bold text-xl text-gray-300 dark:text-gray-300" data-aos="fade-down" data-aos-delay="150">Transformation digitale</p>
           </div> 
 
         </div>

@@ -7,7 +7,7 @@
       </linearGradient>
 
       <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
-        <stop stop-color="#FEFCDB" stop-opacity="0" offset="0%"/>
+        <stop stop-color="#FEFCDBn" stop-opacity="0" offset="0%"/>
         <stop stop-color="#FF6C50" stop-opacity=".72" offset="100%"/>
       </linearGradient>
      
