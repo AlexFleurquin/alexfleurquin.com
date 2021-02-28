@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2 font-red-hat-display mb-4">En attendant...</h2>
+          <h2 class="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9 pt-6">En attendant...</h2>
           <p class="text-xl text-gray-600 dark:text-gray-400">Une timeline pour creuser sur mon parcours et mes expériences</p>
         </div>
 

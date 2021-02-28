@@ -14,7 +14,7 @@
 
       <!-- Page sections -->
       <HeroHome />
-      <Cases />
+      <CaseStudy />
 
     </main>
 
@@ -28,7 +28,7 @@
 import Header from './../partials/Header.vue'
 import PageIllustration from './../partials/PageIllustration.vue'
 import HeroHome from './../partials/HeroHome.vue'
-import Cases from './../partials/Cases'
+import CaseStudy from './../partials/CaseStudy'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -37,7 +37,7 @@ export default {
     Header,
     PageIllustration,
     HeroHome,
-    Cases,
+    CaseStudy,
     Footer,
   },
 }

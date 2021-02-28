@@ -1,10 +1,13 @@
 <template>
   <section>
+    
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="pt-32 pb-10 md:pt-40 md:pb-16">
 
         <!-- Hero content -->
         <div class="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
+
+          
         
           <!-- Content -->
           <div class="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">

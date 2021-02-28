@@ -13,6 +13,7 @@ import Blog from './pages/Blog.vue'
 import Projets from './pages/Projets.vue'
 import BlogPost from './pages/BlogPost.vue'
 import About from './pages/About.vue'
+import Parcours from './pages/Parcours.vue'
 import Contact from './pages/Contact.vue'
 import Help from './pages/Help.vue'
 import PageNotFound from './pages/PageNotFound.vue'
@@ -42,6 +43,10 @@ const routes = [
   {
     path: '/projets',
     component: Projets
+  },
+  {
+    path: '/Parcours',
+    component: Parcours
   },
   {
     path: '/contact',
