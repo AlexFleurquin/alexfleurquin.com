@@ -3,7 +3,7 @@
 
     <!-- Background image -->
     <div class="absolute inset-0 h-128 pt-16 box-content">
-      <img class="absolute inset-0 w-full h-full object-cover opacity-25" :src="require('@/images/hero-bg.jpg')" width="1440" height="577" alt="About" />
+      <img class="absolute inset-0 w-full h-full object-cover opacity-25" :src="require('@/images/Shild-Illustration.svg')" width="1440" height="577" alt="About" />
       <div class="absolute inset-0 bg-gradient-to-t from-white dark:from-gray-900" aria-hidden="true"></div>
     </div>
 
@@ -17,7 +17,7 @@
             <header class="mb-8">
               <!-- Title and excerpt -->
               <div class="text-center md:text-left">
-                <h1 class="h1 font-red-hat-display mb-4" data-aos="fade-down">Appy launches new thematic solutions</h1>
+                <h1 class="h1 font-red-hat-display mb-4" data-aos="fade-down">Shild.</h1>
                 <p class="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Curious about how your favorite product was created? Hear from the team about how it was built, and how continued improvements are made.</p>
               </div>
               <!-- Article meta -->
@@ -25,12 +25,11 @@
                 <!-- Author meta -->
                 <div class="flex items-center justify-center" data-aos="fade-down" data-aos-delay="300">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-01.jpg')" width="32" height="32" alt="Author 04" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/user-alex.jpg')" width="32" height="32" alt="Author 04" />
                   </a>
                   <div>
-                    <span class="text-gray-600 dark:text-gray-400">By </span>
-                    <a class="font-medium text-gray-800 dark:text-gray-300 hover:underline" href="#0">Micheal Osman</a>
-                    <span class="text-gray-600 dark:text-gray-400"> · Nov 2, 2020</span>
+                    <span class="text-gray-600 dark:text-gray-400">Alex Fleurquin </span>
+                    <span class="text-gray-600 dark:text-gray-400"> · 18 mars 2021</span>
                   </div>
                 </div>
               </div>

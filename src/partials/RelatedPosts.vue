@@ -4,7 +4,7 @@
       <div class="pb-12 md:pb-20">
         <div class="max-w-3xl mx-auto">
 
-          <h4 class="h4 font-red-hat-display mb-8">Related articles</h4>
+          <h4 class="h4 font-red-hat-display mb-8">Autres case studies</h4>
 
           <!-- Articles container -->
           <div class="grid gap-4 sm:gap-6 sm:grid-cols-2" data-aos-id-relposts>
@@ -28,11 +28,10 @@
                   <!-- Author meta -->
                   <div class="flex items-center text-sm mt-5">
                     <a href="#0">
-                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-04.jpg')" width="32" height="32" alt="Author 04" />
+                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/user-alex.jpg')" width="32" height="32" alt="Author 04" />
                     </a>
                     <div>
-                      <span class="opacity-75">By </span>
-                      <a class="font-medium hover:underline" href="#0">Mari Champ</a>
+                      <span class="opacity-75">Alex Fleurquin</span>
                     </div>
                   </div>
                 </footer>
@@ -58,11 +57,10 @@
                   <!-- Author meta -->
                   <div class="flex items-center text-sm mt-5">
                     <a href="#0">
-                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-03.jpg')" width="32" height="32" alt="Author 03" />
+                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/user-alex.jpg')" width="32" height="32" alt="Author 03" />
                     </a>
                     <div>
-                      <span class="opacity-75">By </span>
-                      <a class="font-medium hover:underline" href="#0">Lisa Allison Champ</a>
+                      <span class="opacity-75">Alex Fleurquin</span>
                     </div>
                   </div>
                 </footer>

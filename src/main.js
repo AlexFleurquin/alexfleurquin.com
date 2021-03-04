@@ -12,6 +12,7 @@ import Testimonials from './pages/Testimonials.vue'
 import Blog from './pages/Blog.vue'
 import Projets from './pages/Projets.vue'
 import BlogPost from './pages/BlogPost.vue'
+import Shild from './pages/Shild.vue'
 import About from './pages/About.vue'
 import Parcours from './pages/Parcours.vue'
 import Contact from './pages/Contact.vue'
@@ -35,6 +36,10 @@ const routes = [
   {
     path: '/blog-post',
     component: BlogPost
+  },
+  {
+    path: '/Shild',
+    component: Shild
   },
   {
     path: '/about',
