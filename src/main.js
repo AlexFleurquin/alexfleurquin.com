@@ -8,15 +8,12 @@ import '@/css/style.scss';
 
 Vue.use(VueRouter)
 import Home from './pages/Home.vue'
-import Testimonials from './pages/Testimonials.vue'
 import Blog from './pages/Blog.vue'
 import Projets from './pages/Projets.vue'
 import BlogPost from './pages/BlogPost.vue'
 import Shild from './pages/Shild.vue'
-import About from './pages/About.vue'
 import Parcours from './pages/Parcours.vue'
 import Contact from './pages/Contact.vue'
-import Help from './pages/Help.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 
 const routes = [
@@ -24,10 +21,6 @@ const routes = [
     path: '/',
     component: Home,
     meta:{title: 'hello'}
-  },
-  {
-    path: '/testimonials',
-    component: Testimonials
   },
   {
     path: '/blog',
@@ -42,10 +35,6 @@ const routes = [
     component: Shild
   },
   {
-    path: '/about',
-    component: About
-  },
-  {
     path: '/projets',
     component: Projets
   },
@@ -56,11 +45,7 @@ const routes = [
   {
     path: '/contact',
     component: Contact
-  },
-  {
-    path: '/help',
-    component: Help
-  },               
+  },            
   {
     path: '*',
     component: PageNotFound

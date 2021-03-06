@@ -18,7 +18,7 @@
                 <header>
                   <router-link class="block mb-4" to="/blog-post">
                     <figure class="relative h-0 pb-9/16">
-                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/news-01.jpg')" width="352" height="198" alt="News 01" />
+                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/bg-hero-case.jpg')" width="352" height="198" alt="News 01" />
                     </figure>
                   </router-link>
                   <router-link class="hover:underline" to="/blog-post">
@@ -30,7 +30,7 @@
                 <p class="text-gray-600 dark:text-gray-400 flex-grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <footer class="flex items-center mt-4">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-03.jpg')" width="32" height="32" alt="Author 03" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 03" />
                   </a>
                   <div class="text-sm text-gray-500">
                     By <a class="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">Lisa Allison</a> · <span class="text-gray-500">Oct 22, 2020</span>
@@ -43,7 +43,7 @@
                 <header>
                   <router-link class="block mb-4" to="/blog-post">
                     <figure class="relative h-0 pb-9/16">
-                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/news-02.jpg')" width="352" height="198" alt="News 02" />
+                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/bg-hero-case.jpg')" width="352" height="198" alt="News 02" />
                     </figure>
                   </router-link>
                   <router-link class="hover:underline" to="/blog-post">
@@ -55,7 +55,7 @@
                 <p class="text-gray-600 dark:text-gray-400 flex-grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <footer class="flex items-center mt-4">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-06.jpg')" width="32" height="32" alt="Author 06" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 06" />
                   </a>
                   <div class="text-sm text-gray-500">
                     By <a class="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">Greg Gilev</a> · <span class="text-gray-500">Oct 22, 2020</span>
@@ -68,7 +68,7 @@
                 <header>
                   <router-link class="block mb-4" to="/blog-post">
                     <figure class="relative h-0 pb-9/16">
-                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/news-03.jpg')" width="352" height="198" alt="News 03" />
+                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/bg-hero-case.jpg')" width="352" height="198" alt="News 03" />
                     </figure>
                   </router-link>
                   <router-link class="hover:underline" to="/blog-post">
@@ -80,7 +80,7 @@
                 <p class="text-gray-600 dark:text-gray-400 flex-grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <footer class="flex items-center mt-4">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-01.jpg')" width="32" height="32" alt="Author 01" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 01" />
                   </a>
                   <div class="text-sm text-gray-500">
                     By <a class="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">Mark Varsano</a> · <span class="text-gray-500">Oct 22, 2020</span>
@@ -93,7 +93,7 @@
                 <header>
                   <router-link class="block mb-4" to="/blog-post">
                     <figure class="relative h-0 pb-9/16">
-                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/news-04.jpg')" width="352" height="198" alt="News 04" />
+                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/bg-hero-case.jpg')" width="352" height="198" alt="News 04" />
                     </figure>
                   </router-link>
                   <router-link class="hover:underline" to="/blog-post">
@@ -105,7 +105,7 @@
                 <p class="text-gray-600 dark:text-gray-400 flex-grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <footer class="flex items-center mt-4">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-03.jpg')" width="32" height="32" alt="Author 03" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 03" />
                   </a>
                   <div class="text-sm text-gray-500">
                     By <a class="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">Lisa Allison</a> · <span class="text-gray-500">Oct 22, 2020</span>
@@ -118,7 +118,7 @@
                 <header>
                   <router-link class="block mb-4" to="/blog-post">
                     <figure class="relative h-0 pb-9/16">
-                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/news-05.jpg')" width="352" height="198" alt="News 05" />
+                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/bg-hero-case.jpg')" width="352" height="198" alt="News 05" />
                     </figure>
                   </router-link>
                   <router-link class="hover:underline" to="/blog-post">
@@ -130,7 +130,7 @@
                 <p class="text-gray-600 dark:text-gray-400 flex-grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <footer class="flex items-center mt-4">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-04.jpg')" width="32" height="32" alt="Author 04" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 04" />
                   </a>
                   <div class="text-sm text-gray-500">
                     By <a class="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">Mary Champ</a> · <span class="text-gray-500">Oct 22, 2020</span>
@@ -143,7 +143,7 @@
                 <header>
                   <router-link class="block mb-4" to="/blog-post">
                     <figure class="relative h-0 pb-9/16">
-                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/news-06.jpg')" width="352" height="198" alt="News 06" />
+                      <img class="absolute inset-0 w-full h-full object-cover" :src="require('@/images/bg-hero-case.jpg')" width="352" height="198" alt="News 06" />
                     </figure>
                   </router-link>
                   <router-link class="hover:underline" to="/blog-post">
@@ -155,7 +155,7 @@
                 <p class="text-gray-600 dark:text-gray-400 flex-grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <footer class="flex items-center mt-4">
                   <a href="#0">
-                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-05.jpg')" width="32" height="32" alt="Author 05" />
+                    <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 05" />
                   </a>
                   <div class="text-sm text-gray-500">
                     By <a class="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">Yuri Lapko</a> · <span class="text-gray-500">Oct 22, 2020</span>

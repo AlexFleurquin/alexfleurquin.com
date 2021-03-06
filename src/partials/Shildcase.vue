@@ -28,7 +28,7 @@
                   <!-- Author meta -->
                   <div class="flex items-center text-sm mt-5">
                     <a href="#0">
-                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-04.jpg')" width="32" height="32" alt="Author 04" />
+                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 04" />
                     </a>
                     <div>
                       <span class="opacity-75">By </span>
@@ -58,7 +58,7 @@
                   <!-- Author meta -->
                   <div class="flex items-center text-sm mt-5">
                     <a href="#0">
-                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/news-author-03.jpg')" width="32" height="32" alt="Author 03" />
+                      <img class="rounded-full flex-shrink-0 mr-3" :src="require('@/images/bg-hero-case.jpg')" width="32" height="32" alt="Author 03" />
                     </a>
                     <div>
                       <span class="opacity-75">By </span>

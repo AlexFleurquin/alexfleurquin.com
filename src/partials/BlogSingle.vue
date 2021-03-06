@@ -45,7 +45,7 @@
                 Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien?
               </p>
               <figure class="mb-8">
-                <img class="w-full" :src="require('@/images/news-inner-image.jpg')" width="768" height="432" alt="News inner" />
+                <img class="w-full" :src="require('@/images/bg-hero-case.jpg')" width="768" height="432" alt="News inner" />
                 <figcaption class="text-sm text-center text-gray-500 mt-3">Photo by Helena Lopes on Unsplash</figcaption>
               </figure>
               <h3 class="h4 font-red-hat-display mb-4 text-gray-900 dark:text-gray-100">1. An Ending and a Beginning</h3>
@@ -68,7 +68,7 @@
                 Bibendum enim facilisis gravida neque convallis. Convallis posuere morbi leo urna molestie turpis in eu mi bibendum neque egestas. Est ante in nibh mauris cursus mattis molestie aliquam purus sit amet luctus vulputate sapien nec sagittis aliquam enim nec dui nunc mattis enim, sit amet nulla facilisi morbi tempus iaculis urna id. Blandit cursus risus at ultrices mi tempus imperdiet nulla.
               </p>
               <figure class="mb-8 md:float-left md:max-w-sm md:mr-8 lg:max-w-none lg:-ml-32">
-                <img class="mx-auto" :src="require('@/images/news-inner-image-left.jpg')" width="480" height="300" alt="News inner left" />
+                <img class="mx-auto" :src="require('@/images/bg-hero-case.jpg')" width="480" height="300" alt="News inner left" />
               </figure>
               <p class="mb-8">
                 “ Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet bibendum enim eu augue ut lectus arcu bibendum at. Non sodales neque sodales ut etiam sit. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam.”

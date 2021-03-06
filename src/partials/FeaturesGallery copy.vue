@@ -131,12 +131,12 @@
 
         <!-- Images grid -->
         <div class="grid grid-cols-12 gap-3 mt-12 md:mt-20" data-aos-id-gallery>
-          <img class="col-span-4" :src="require('@/images/about-grid-01.jpg')" width="360" height="270" alt="About grid 01" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" />
-          <img class="col-span-3" :src="require('@/images/about-grid-02.jpg')" width="270" height="270" alt="About grid 02" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="100" />
-          <img class="col-span-5" :src="require('@/images/about-grid-03.jpg')" width="450" height="270" alt="About grid 03" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="200" />
-          <img class="col-span-3" :src="require('@/images/about-grid-04.jpg')" width="270" height="270" alt="About grid 04" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="300" />
-          <img class="col-span-5" :src="require('@/images/about-grid-05.jpg')" width="450" height="270" alt="About grid 05" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="400" />
-          <img class="col-span-4" :src="require('@/images/about-grid-06.jpg')" width="360" height="270" alt="About grid 06" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="500" />
+          <img class="col-span-4" :src="require('@/images/bg-hero-case.jpg')" width="360" height="270" alt="About grid 01" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" />
+          <img class="col-span-3" :src="require('@/images/bg-hero-case.jpg')" width="270" height="270" alt="About grid 02" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="100" />
+          <img class="col-span-5" :src="require('@/images/bg-hero-case.jpg')" width="450" height="270" alt="About grid 03" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="200" />
+          <img class="col-span-3" :src="require('@/images/bg-hero-case.jpg')" width="270" height="270" alt="About grid 04" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="300" />
+          <img class="col-span-5" :src="require('@/images/bg-hero-case.jpg')" width="450" height="270" alt="About grid 05" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="400" />
+          <img class="col-span-4" :src="require('@/images/bg-hero-case.jpg')" width="360" height="270" alt="About grid 06" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="500" />
         </div>
 
       </div>

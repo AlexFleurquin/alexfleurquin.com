@@ -12,7 +12,7 @@
             <!-- 1st article -->
             <article class="relative group p-6 text-white" data-aos="fade-down" data-aos-anchor="[data-aos-id-relposts]">
               <figure>
-                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/related-post-01.jpg')" width="372" height="182" alt="Related post 01" />
+                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/bg-hero-case.jpg')" width="372" height="182" alt="Related post 01" />
                 <div class="absolute inset-0 bg-teal-500 opacity-75 group-hover:opacity-50 transition duration-700 ease-out" aria-hidden="true"></div>
               </figure>
               <div class="relative flex flex-col h-full">
@@ -41,7 +41,7 @@
             <!-- 2nd article -->
             <article class="relative group p-6 text-white" data-aos="fade-down" data-aos-anchor="[data-aos-id-relposts]" data-aos-delay="200">
               <figure>
-                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/related-post-02.jpg')" width="372" height="182" alt="Related post 02" />
+                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-75 transition duration-700 ease-out" :src="require('@/images/bg-hero-case.jpg')" width="372" height="182" alt="Related post 02" />
                 <div class="absolute inset-0 bg-purple-500 opacity-75 group-hover:opacity-50 transition duration-700 ease-out" aria-hidden="true"></div>
               </figure>
               <div class="relative flex flex-col h-full">
