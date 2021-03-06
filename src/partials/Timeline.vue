@@ -44,148 +44,152 @@
             <div class="flex-grow" v-show="year === '2021'">
               <div class="grid md:grid-cols-2 gap-4 sm:gap-6">
                 <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
-                  <header>
-                    <h4 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Consultant Intégration Fonctionnelle</a>
-                    </h4>
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/Orange_Bank_logo.png')" width="40" height="40" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Orange Bank</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant Intégration Fonctionnelle</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Mission de conseil sur l'intégration fonctionnelle</p>
-                  </div>
                 </article>
                 <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
-                  <header>
-                    <h4 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Consultant en Transformation Numérique</a>
-                    </h4>
-                  </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  </div>
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/mc2i_logo.svg')" width="64" height="64" alt="Avatar" />
+                      </a>
+                    </div> 
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">mc2i</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant en transformation numérique</p> 
+                    </div>                 
+                  </header>  
                 </article>
                 <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Freelance</a>
-                    </h3>
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/AF-logo-light.svg')" width="32" height="32" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Freelance</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant Intégration Fonctionnelle</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  </div>
+                </article>
+                
+              </div>
+            </div>
+
+            <!-- 2020's articles -->
+            <div class="flex-grow" v-show="year === '2020'">
+              <div class="grid md:grid-cols-2 gap-6">
+                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/mc2i_logo.svg')" width="64" height="64" alt="Avatar" />
+                      </a>
+                    </div> 
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">mc2i</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant en transformation numérique</p> 
+                    </div>                 
+                  </header>  
+                </article>
+                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/Orange_Bank_logo.png')" width="40" height="40" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Orange Bank</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant Intégration Fonctionnelle</p> 
+                    </div>                 
+                  </header>
                 </article>
               </div>
             </div>
 
             <!-- 2019's articles -->
-            <div class="flex-grow" v-show="year === '2020'">
+            <div class="flex-grow" v-show="year === '2019'">
               <div class="grid md:grid-cols-2 gap-6">
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">1M Customers</a>
-                    </h3>
-                  </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Sed do eiusmod tempor incididunt, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
+                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/mc2i_logo.svg')" width="64" height="64" alt="Avatar" />
+                      </a>
+                    </div> 
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">mc2i</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant en transformation numérique</p> 
+                    </div>                 
+                  </header>  
                 </article>
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Mobile builder enabled</a>
-                    </h3>
+                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/Orange_Bank_logo.png')" width="40" height="40" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Orange Bank</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant Intégration Fonctionnelle</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Sed do eiusmod tempor incididunt, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
                 </article>
               </div>
             </div>
 
             <!-- 2018's articles -->
-            <div class="flex-grow" v-show="year === '2019'">
-              <div class="grid md:grid-cols-2 gap-6">
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Series B fundraising</a>
-                    </h3>
-                  </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
-                </article>
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Launched Appy Business</a>
-                    </h3>
-                  </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
-                </article>
-              </div>
-            </div>
-
-            <!-- 2017's articles -->
             <div class="flex-grow" v-show="year === '2018'">
               <div class="grid md:grid-cols-2 gap-6">
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">1M Customers</a>
-                    </h3>
+                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/Logo-NEOMA.png')" width="96" height="96" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Neoma</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Master in Management</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Sed do eiusmod tempor incididunt, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
                 </article>
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Mobile builder enabled</a>
-                    </h3>
+                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/BOS_Logo_Bleu.png')" width="64" height="64" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Bali Ocean Surf</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Consultant Intégration Fonctionnelle</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Sed do eiusmod tempor incididunt, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
                 </article>
               </div>
             </div>
@@ -193,53 +197,50 @@
             <!-- 2016's articles -->
             <div class="flex-grow" v-show="year === '2017'">
               <div class="grid md:grid-cols-2 gap-6">
-                <article class="md:col-span-2 p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Mobile builder enabled</a>
-                    </h3>
+                <article class="md:col-span-2 p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/Logo-NEOMA.png')" width="96" height="96" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Neoma</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Master in Management</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
                 </article>
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">Series B fundraising</a>
-                    </h3>
+                                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/nalo_logo.png')" width="96" height="96" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Nalo</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Chef de projet Marketing Digital</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
                 </article>
-                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col">
-                  <header>
-                    <h3 class="h4 font-red-hat-display mb-1">
-                      <a href="#0">1M Customers</a>
-                    </h3>
+                                <article class="p-6 bg-white dark:bg-gray-800 shadow-2xl flex flex-col rounded-md">
+                  <header class="flex items-center">
+                    <div class="flex text-3xl font-bold text-true-gray-800">
+                      <a href="#0" >
+                          <img class="flex-shrink-0 mr-3" :src="require('@/images/AF-logo-light.svg')" width="40" height="40" alt="Avatar" />
+                      </a>
+                    
+                    </div> 
+                    
+                    <div class="items-start justify-between text-gray-700 dark:text-white md:m-0">
+                      <a class="h4 font-red-hat-display" href="#0">Autodidacte</a>
+                      <p class="text-gray-600 dark:text-gray-400 ">Apprentisage Developement Front End</p> 
+                    </div>                 
                   </header>
-                  <div class="text-gray-600 dark:text-gray-400 flex-grow">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  </div>
-                  <a class="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
-                    <span>Learn more</span>
-                    <svg class="w-3 h-3 flex-shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path class="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
-                    </svg>
-                  </a>
                 </article>
               </div>
             </div>
