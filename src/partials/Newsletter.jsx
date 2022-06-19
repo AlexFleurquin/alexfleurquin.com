@@ -2,7 +2,7 @@ import React from 'react';
 
 function Newsletter() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900" id="#newsletter">
       <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 ">
 
         {/* CTA box */}

@@ -14,10 +14,10 @@ function Footer() {
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
-                {/* Logo */}
+                {/* Logo 
                 <Link to="/" className="inline-block" aria-label="Accueil">
                   <img className="mx-auto" src={Logo} width="32" height="32" alt="Logo" data-aos="fade-up" data-aos-delay="400" />
-                </Link>
+                </Link> */}
               </div>
               {/* <div className="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div> */}
             </div>

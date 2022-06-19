@@ -4,6 +4,7 @@ import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
 import Newsletter from '../partials/Newsletter';
+import Clients from '../partials/Clients';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+        <Clients />
         <Newsletter />
 
       </main>

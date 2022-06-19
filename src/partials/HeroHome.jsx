@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import Modal from '../utils/Modal';
 
-import HeroImage from '../images/hero-image-02.png';
+import HeroImage from '../images/Darkmode.jpeg';
 
 function HeroHome() {
 
@@ -33,12 +32,12 @@ function HeroHome() {
             <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200"> FLEURQUIN</span>
             
             </h1>
-          <p className="text-xl text-gray-400 font-display font-semibold" data-aos="fade-up" data-aos-delay="200">Product Manager</p>
+          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Product Manager</p>
               
         </div>
         
         {/* Image */}
-        <img className="mx-auto" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
+        <img className="mx-auto rounded-md" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
 
         {/* CTA 
         <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">

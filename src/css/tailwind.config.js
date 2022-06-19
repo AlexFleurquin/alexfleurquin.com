@@ -38,7 +38,7 @@ module.exports = {
       fontFamily: {
         'sans': ['Inter', 'sans-serif'],
         'body': ['Playfair Display', 'serif'],
-        'display': ['Joan', 'serif'],
+        'display': ['Caveat', 'cursive'],
         'mono': ['Source Sans Pro', 'sans-serif'],
         'custom': ['Ubuntu', 'sans-serif'],
       },
