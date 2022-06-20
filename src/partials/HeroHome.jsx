@@ -61,7 +61,7 @@ function HeroHome() {
   
         
         {/* Image */}
-        <img className="mx-auto rounded-md" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
+        <img className="mx-auto rounded-md drop-shadow-lg" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
 
       </div>
 
