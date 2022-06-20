@@ -6,7 +6,7 @@ function Newsletter() {
       <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 ">
 
         {/* CTA box */}
-        <div className="relative bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md" data-aos="fade-up">
+        <div className="relative bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md drop-shadow-xl" data-aos="fade-up">
 
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">

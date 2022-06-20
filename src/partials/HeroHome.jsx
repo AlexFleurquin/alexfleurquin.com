@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import HeroImage from '../images/Darkmode.jpeg';
+import Pdf from '../pdf/Resume_Alexandre_Fleurquin.pdf';
 
 function HeroHome() {
 
@@ -36,10 +37,10 @@ function HeroHome() {
             {/* CTA  */}
           <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn rounded-md drop-shadow text-white dark:text-black bg-blue-300 dark:bg-white hover:bg-blue-200 dark:hover:bg-gray-100 w-full mb-4 sm:w-auto sm:mb-0" href="../pdf/Resume_Alexandre_Fleurquin.pdf">Télécharger mon CV
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <a className="btn rounded-md drop-shadow text-white dark:text-black bg-blue-300 dark:bg-white hover:bg-blue-200 dark:hover:bg-gray-100 w-full mb-4 sm:w-auto sm:mb-0" href = {Pdf} target = "_blank">Voir mon CV
+                   {/*  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg>
+                    </svg> */}
                   </a>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600">
@@ -61,7 +62,7 @@ function HeroHome() {
   
         
         {/* Image */}
-        <img className="mx-auto rounded-md drop-shadow-lg" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
+        <img className="mx-auto rounded-md drop-shadow-2xl md:pt-20 md:pb-20" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
 
       </div>
 
