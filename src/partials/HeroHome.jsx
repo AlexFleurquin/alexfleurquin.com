@@ -31,16 +31,16 @@ function HeroHome() {
           <div class="px-4 py-16">
             <div class="grid gap-8- items-start justify-center">
               <div class="relative group">
-                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <button class="relative px-4 py-3 bg-gray-900 rounded-lg leading-none flex items-center divide-x divide-gray-600" href="https://www.lewagon.com/">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-80 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <div class="relative px-4 py-2 bg-gray-900 rounded-full leading-none flex items-center divide-x divide-gray-600">
                   <span class="flex items-center space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path fill-rule="evenodd" d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z" clip-rule="evenodd" />
                     </svg>
-                    <span class="pr-6 text-gray-100">Actuellement étudiant au Wagon</span>
+                    <span class="pr-6 text-gray-100 text-sm">Actuellement étudiant au Wagon</span>
                   </span>
-                  <span class="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Me suivre &rarr;</span>
-                </button>
+                  <a class="pl-6 text-indigo-300 hover:text-indigo-400 transition duration-200 text-sm" href="https://www.lewagon.com/">Me suivre &rarr;</a>
+                </div>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ function HeroHome() {
           <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="400">
                   
-                  <a className="btn rounded-md shadow-md text-white dark:text-black  border-0	bg-gradient-to-br from-blue-300 via-fuchsia-400 to-violet-500 hover:from-blue-300 hover:via-fuchsia-300 hover:to-violet-6xs00 w-full sm:w-auto sm:mb-0" href = {Pdf} target = "_blank">Voir mon CV
+                  <a className="btn rounded-md shadow-md hover:shadow-lg dark:shadow-blue-500/50 text-white dark:text-black  border-0	bg-gradient-to-br from-blue-300 via-fuchsia-400 to-violet-500 hover:from-blue-300 hover:via-fuchsia-300 hover:to-violet-6xs00 w-full sm:w-auto sm:mb-0" href = {Pdf} target = "_blank">Voir mon CV
                    {/*  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                     </svg> */}
