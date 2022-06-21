@@ -32,7 +32,7 @@ function HeroHome() {
             <div class="grid gap-8- items-start justify-center">
               <div class="relative group" data-aos="fade-down" data-aos-delay="800">
                 <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <div class="relative px-4 py-2 bg-white dark:bg-gray-900 rounded-full leading-none flex items-center divide-x divide-gray-600">
+                <div class="relative px-4 py-2 bg-gray-800 dark:bg-gray-900 rounded-full leading-none flex items-center divide-x divide-gray-600">
                   <span class="flex items-center space-x-2 ">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -41,7 +41,7 @@ function HeroHome() {
                     </svg>
                     <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Actuellement étudiant au Wagon</span>
                   </span>
-                  <a class="pl-6 text-gray-700 hover:text-gray-800 dark:text-gray-100 transition duration-200 text-sm" href="https://www.lewagon.com/">Me suivre &rarr;</a>
+                  <a class="pl-6 hover:text-white text-gray-400 transition duration-200 text-sm" href="https://www.lewagon.com/">Me suivre &rarr;</a>
                 </div>
               </div>
             </div>
