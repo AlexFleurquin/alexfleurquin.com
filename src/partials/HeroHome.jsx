@@ -33,13 +33,13 @@ function HeroHome() {
               <div class="relative group" data-aos="fade-down" data-aos-delay="800">
                 <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                 <div class="relative px-4 py-2 bg-white dark:bg-gray-900 rounded-full leading-none flex items-center divide-x divide-gray-600">
-                  <span class="flex items-center space-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <span class="flex items-center space-x-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M12 14l9-5-9-5-9 5 9 5z" />
                         <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                     </svg>
-                    <span class="pr-6 text-indigo-400 text-sm">Actuellement étudiant au Wagon</span>
+                    <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Actuellement étudiant au Wagon</span>
                   </span>
                   <a class="pl-6 text-gray-700 hover:text-gray-800 dark:text-gray-100 transition duration-200 text-sm" href="https://www.lewagon.com/">Me suivre &rarr;</a>
                 </div>
