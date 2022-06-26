@@ -8,6 +8,7 @@ function Header() {
 
   const trigger = useRef(null);
   const mobileNav = useRef(null);
+  
 
   // close the mobile menu on click outside
   useEffect(() => {
@@ -126,11 +127,12 @@ function Header() {
               </svg>
             </button>
 
-            {/*Mobile navigation 
+            {/* Hamburger button */}
             <nav id="mobile-nav" ref={mobileNav} className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 } }>
               <ul className="bg-gray-800 px-4 py-2">
+                {/* Menu
                 <li>
-                  <Link to="/features" className="flex text-gray-300 hover:text-gray-200 py-2">Features</Link>
+                  <Link to="/features" className="flex hover:text-gray-200 py-2">Features</Link>
                 </li>
                 <li>
                   <Link to="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2">Pricing</Link>
@@ -157,12 +159,12 @@ function Header() {
                 </li>
                 <li>
                   <Link to="/signin" className="flex font-medium w-full text-blue-400 hover:text-gray-200 py-2 justify-center">Sign in</Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link to="/signup" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-blue-600 hover:bg-purple-700 transition duration-150 ease-in-out">Sign up</Link>
+                  <Link to="/signup" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 hover:bg-blue-700 transition duration-150 ease-in-out">Découvrir Jinial</Link>
                 </li>
               </ul>
-            </nav> */}
+            </nav> 
 
           </div>
 
