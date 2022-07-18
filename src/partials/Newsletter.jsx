@@ -36,7 +36,7 @@ function Newsletter() {
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input type="hidden" name="form-name" value="Collect_Data" />
                 <input type="email" name="email_contact" className="w-full appearance-none bg-gray-600 border border-gray-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-400" placeholder="Ton meilleur email…" aria-label="Ton meilleur email…" />
-                <a className="btn border-0 text-white bg-gradient-to-r from-gray-800 to-gray-900" href="#0" type="submit">S'abonner</a>
+                <a className="btn border-0 text-white bg-gradient-to-r from-gray-800 to-gray-900" type="submit">S'abonner</a>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
