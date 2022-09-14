@@ -46,11 +46,11 @@ function HeroHome() {
               </div>
             </div>
           </div>
-         <h1 class="h1 lg:text-5xl mb-4 font-extrabold text-gray-700 dark:text-white" data-aos="fade-down">Alexandre
-            <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200"> FLEURQUIN</span>
+         <h1 class="h1 lg:text-5xl mb-4 font-custom font-extrabold text-gray-700 dark:text-white" data-aos="fade-down">Alexandre
+            <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200"> Fleurquin</span>
 
             </h1>
-          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Frontend Developer</p>
+          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Développeur Frontend</p>
             {/* CTA  */}
           <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="400">
