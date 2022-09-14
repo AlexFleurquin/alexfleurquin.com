@@ -39,8 +39,8 @@ module.exports = {
         'sans': ['Inter', 'sans-serif'],
         'body': ['Playfair Display', 'serif'],
         'display': ['Caveat', 'cursive'],
-        'mono': ['Source Sans Pro', 'sans-serif'],
-        'custom': ['Ubuntu', 'sans-serif'],
+        'mono': ['Heebo', 'sans-serif'],
+        'custom': ['Oxygen', 'sans-serif'],
       },
       fontSize: {
         xs: '0.75rem',

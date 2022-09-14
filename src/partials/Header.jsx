@@ -89,7 +89,7 @@ function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
 
               <li>
-                <Link to="/" smooth={true} spy={true} duration={1000} className="btn-sm bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 hover:bg-blue-700 ml-3">Découvrir Jinial</Link>
+                <a href="http://www.yarder.homes" target = "_blank" smooth={true} spy={true} duration={1000} className="btn-sm bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 hover:bg-blue-700 ml-3">Découvrir yarder</a>
               </li>
               <li>
                  {/* Desktop lights switch */}

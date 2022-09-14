@@ -2,11 +2,11 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
-import BlogSingle from '../partials/BlogSingle';
+import BlogYarder from '../partials/BlogYarder';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
-function BlogPost() {
+function Yarder() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -22,7 +22,7 @@ function BlogPost() {
         </div>
 
         {/*  Page sections */}
-        <BlogSingle />
+        <BlogYarder />
         <Newsletter />
 
       </main>
@@ -34,4 +34,4 @@ function BlogPost() {
   );
 }
 
-export default BlogPost;
+export default Yarder;
