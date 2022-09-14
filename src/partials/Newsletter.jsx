@@ -6,7 +6,7 @@ function Newsletter() {
       <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 ">
 
         {/* CTA box */}
-        <div className="relative bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md" data-aos="fade-up">
+        <div className="relative bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md drop-shadow-xl" data-aos="fade-up">
 
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
@@ -32,10 +32,11 @@ function Newsletter() {
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
+            <form name="jinial_contact" method="POST" className="w-full lg:w-1/2" data-netlify="true" action='' onSubmit="submit">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="email" className="w-full appearance-none bg-gray-600 border border-gray-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-400" placeholder="Ton meilleur email…" aria-label="Ton meilleur email…" />
-                <a className="btn text-white bg-gradient-to-r from-gray-800 to-gray-900" href="#0">S'abonner</a>
+                <input type="hidden" name="form-name" value="contact-form" />
+                <input type="email" id="email" name="email" className="w-full appearance-none bg-gray-600 border border-gray-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-400" placeholder="Ton meilleur email…" aria-label="Ton meilleur email…" />
+                <a className="btn border-0 text-white bg-gradient-to-r from-gray-800 to-gray-900" href="./pages/PageNotFound'" type="submit">S'abonner</a>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
