@@ -39,22 +39,22 @@ function HeroHome() {
                         <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                     </svg>
-                    <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Actuellement étudiant au Wagon</span>
+                    <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Mon projet du Wagon est en ligne</span>
                   </span>
-                  <a class="pl-6 hover:text-white text-gray-400 transition duration-200 text-sm" href="https://www.lewagon.com/">Me suivre &rarr;</a>
+                  <a class="pl-6 hover:text-white text-gray-400 transition duration-200 text-sm" href="http://www.yarder.homes/">Découvrez yarder &rarr;</a>
                 </div>
               </div>
             </div>
           </div>
          <h1 class="h1 lg:text-5xl mb-4 font-extrabold text-gray-700 dark:text-white" data-aos="fade-down">Alexandre
             <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200"> FLEURQUIN</span>
-            
+
             </h1>
-          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Product Manager</p>
+          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Frontend Developer</p>
             {/* CTA  */}
           <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="400">
-                  
+
                   <a className="btn rounded-md shadow-md hover:shadow-lg dark:shadow-blue-500/50 text-white dark:text-black  border-0	bg-gradient-to-br from-blue-300 via-fuchsia-400 to-violet-500 hover:from-blue-300 hover:via-fuchsia-300 hover:to-violet-6xs00 w-full sm:w-auto sm:mb-0" href = {Pdf} target = "_blank">Voir mon CV
                    {/*  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -62,7 +62,7 @@ function HeroHome() {
                   </a>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600">
-                  
+
                   <a className="btn rounded-md bg-transparent border border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white w-full sm:w-auto sm:ml-4" href="mailto:alexandre.fleurquin@gmail.com">Me contacter
                   <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path
@@ -73,12 +73,12 @@ function HeroHome() {
                   </svg>
                 </a>
                 </div>
-                
+
           </div>
         </div>
 
-  
-        
+
+
         {/* Image */}
         <img className="mx-auto rounded-md drop-shadow-md hover:drop-shadow-xl mt-20" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
 
@@ -86,7 +86,7 @@ function HeroHome() {
 
     </div>
   </section>
-    
+
   );
 }
 
