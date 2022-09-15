@@ -90,7 +90,7 @@ function HeroHome() {
                       }`}
                       onClick={() => setCategory('1')}
                     >
-                      Everyone
+                      Proposition
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
@@ -98,7 +98,7 @@ function HeroHome() {
                       }`}
                       onClick={() => setCategory('2')}
                     >
-                      Freelancers
+                      Problèmes
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
@@ -106,31 +106,30 @@ function HeroHome() {
                       }`}
                       onClick={() => setCategory('3')}
                     >
-                      Organizations
+                      Bénéfices
                     </button>
                   </div>
                 </div>
                 {/* Content */}
                 <div>
                   <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Kickstart your project with these tools</h3>
-                    <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
-                    </div>
+                    <h3 className="h3 font-hkgrotesk mb-2">Convertissez grâce à l'UX</h3>
+                    <ul className="text-lg text-slate-500">
+                      J'aide les startups à délivrer :
+                      <li className='text-base'> - un produit unique pour ses utilisateurs</li>
+                      <li className='text-base'> - délivrer des expériences et des émotions positives</li>
+                    </ul>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Tech tools to kickstart freelance life</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Du trafic sur votre site mais peu de passage à l'action ?</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                      Mauvais taux de rebond, peu de ventes, pas de fidélisation des clients et une mauvaise image de marque.
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Share your plan and clarify project risk</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Livrer des expériences uniques et agréables</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                      La capacité à provoquer des émotions positives, la facilité d'utilisation, la crédibilité, l'utilité et les performances techniques sont d'autant de grands principes à retenir pour améliorer l'expérience de vos utilisateurs.
                     </div>
                   </div>
                 </div>
