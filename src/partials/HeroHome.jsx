@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 
 import HeroImage from '../images/Darkmode.jpeg';
 import Pdf from '../pdf/Resume_Alexandre_Fleurquin.pdf';
+import Illustration from '../images/features-illustration-02.svg';
+import FeaturesImage from '../images/hero-illustration.png';
 
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
+  const [category, setCategory] = useState('1');
 
   return (
     <section className="relative bg-white dark:bg-gray-900">
@@ -39,9 +42,9 @@ function HeroHome() {
                         <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                     </svg>
-                    <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Mon projet du Wagon est en ligne</span>
+                    <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Je suis à la recherche d'opportunités</span>
                   </span>
-                  <a class="pl-6 hover:text-white text-gray-400 transition duration-200 text-sm" href="http://www.yarder.homes/">Découvrez yarder &rarr;</a>
+                  <a class="pl-6 hover:text-white text-gray-400 transition duration-200 text-sm" href = {Pdf} target = "_blank">Découvrez mon CV &rarr;</a>
                 </div>
               </div>
             </div>
@@ -53,14 +56,6 @@ function HeroHome() {
           <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Développeur Frontend</p>
             {/* CTA  */}
           <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
-                <div data-aos="fade-up" data-aos-delay="400">
-
-                  <a className="btn rounded-md shadow-md hover:shadow-lg dark:shadow-blue-500/50 text-white dark:text-black  border-0	bg-gradient-to-br from-blue-300 via-fuchsia-400 to-violet-500 hover:from-blue-300 hover:via-fuchsia-300 hover:to-violet-6xs00 w-full sm:w-auto sm:mb-0" href = {Pdf} target = "_blank">Voir mon CV
-                   {/*  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg> */}
-                  </a>
-                </div>
                 <div data-aos="fade-up" data-aos-delay="600">
 
                   <a className="btn rounded-md bg-transparent border border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white w-full sm:w-auto sm:ml-4" href="mailto:alexandre.fleurquin@gmail.com">Me contacter
@@ -76,12 +71,75 @@ function HeroHome() {
 
           </div>
         </div>
-
-
-
-        {/* Image */}
-        <img className="mx-auto rounded-md drop-shadow-md hover:drop-shadow-xl mt-20" src={HeroImage} width="768" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
-
+      {/* Illustration */}
+      <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 mt-40 pointer-events-none -z-10" aria-hidden="true">
+        <img src={Illustration} className="max-w-none" width="1440" height="453" alt="Features 02 Illustration" />
+      </div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="py-12 md:py-20">
+          {/* Box */}
+          <div className="bg-slate-800 bg-opacity-60 rounded overflow-hidden">
+            <div className="flex flex-col md:flex-row items-end md:items-start md:justify-between lg:space-x-20">
+              <div className="md:min-w-[28rem] p-6 lg:p-10">
+                {/* Filters */}
+                <div className="mb-6 lg:mb-8">
+                  <div className="flex flex-wrap -m-1.5">
+                    <button
+                      className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
+                        category === '1' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
+                      }`}
+                      onClick={() => setCategory('1')}
+                    >
+                      Everyone
+                    </button>
+                    <button
+                      className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
+                        category === '2' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
+                      }`}
+                      onClick={() => setCategory('2')}
+                    >
+                      Freelancers
+                    </button>
+                    <button
+                      className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
+                        category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
+                      }`}
+                      onClick={() => setCategory('3')}
+                    >
+                      Organizations
+                    </button>
+                  </div>
+                </div>
+                {/* Content */}
+                <div>
+                  <div className={`${category !== '1' && 'hidden'}`}>
+                    <h3 className="h3 font-hkgrotesk mb-2">Kickstart your project with these tools</h3>
+                    <div className="text-lg text-slate-500">
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                    </div>
+                  </div>
+                  <div className={`${category !== '2' && 'hidden'}`}>
+                    <h3 className="h3 font-hkgrotesk mb-2">Tech tools to kickstart freelance life</h3>
+                    <div className="text-lg text-slate-500">
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                    </div>
+                  </div>
+                  <div className={`${category !== '3' && 'hidden'}`}>
+                    <h3 className="h3 font-hkgrotesk mb-2">Share your plan and clarify project risk</h3>
+                    <div className="text-lg text-slate-500">
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img src={FeaturesImage} className="md:max-w-none" width="480" height="414" alt="Feature" />
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
 
     </div>

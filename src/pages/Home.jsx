@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
+import FeaturesZigzag from '../partials/FeaturesZigzag';
 import Newsletter from '../partials/Newsletter';
 import Clients from '../partials/Clients';
 import Footer from '../partials/Footer';
@@ -24,6 +25,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+        <FeaturesZigzag />
         <Clients />
         <Newsletter />
 
