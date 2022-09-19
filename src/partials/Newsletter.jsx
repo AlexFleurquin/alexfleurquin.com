@@ -6,7 +6,7 @@ function Newsletter() {
       <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 ">
 
         {/* CTA box */}
-        <div className="relative bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md drop-shadow-xl" data-aos="fade-up">
+        <div className="relative bg-blue-100 dark:bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md drop-shadow-xl" data-aos="fade-up">
 
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
@@ -25,18 +25,18 @@ function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">
+              <h3 className="h3 text-gray-800 dark:text-white mb-2">
               <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200"> Jinial </span>
               arrive (très) bientôt</h3>
-              <p className="text-purple-200 text-lg">Soyez le premier informé de sa sortie.</p>
+              <p className="text-gray-700 dark:text-purple-200 text-lg">Soyez le premier informé de sa sortie.</p>
             </div>
 
             {/* CTA form */}
             <form name="jinial_contact" method="POST" className="w-full lg:w-1/2" data-netlify="true" action='' onSubmit="submit">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input type="hidden" name="form-name" value="contact-form" />
-                <input type="email" id="email" name="email" className="w-full appearance-none bg-gray-600 border border-gray-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-400" placeholder="Ton meilleur email…" aria-label="Ton meilleur email…" />
-                <a className="btn border-0 text-white bg-gradient-to-r from-gray-800 to-gray-900" href="./pages/PageNotFound'" type="submit">S'abonner</a>
+                <input type="email" id="email" name="email" className="w-full appearance-none bg-white dark:bg-gray-600 border border-blue-300 dark:border-gray-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-blue-400 dark:placeholder-gray-400" placeholder="Ton meilleur email…" aria-label="Ton meilleur email…" />
+                <a className="btn border-0 text-white bg-blue-400 dark:bg-gradient-to-r from-gray-800 to-gray-900" href="./pages/PageNotFound'" type="submit">S'abonner</a>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
