@@ -34,8 +34,8 @@ function HeroHome() {
           <div class="px-4 py-16">
             <div class="grid gap-8- items-start justify-center">
               <div class="relative group" data-aos="fade-down" data-aos-delay="800">
-                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <div class="relative px-4 py-2 bg-gray-800 dark:bg-gray-900 rounded-full leading-none flex items-center divide-x divide-gray-600">
+                <div class="absolute -inset-0.5 dark:bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <div class="relative px-4 py-2 dark:bg-gray-900 border dark:border-none hover:shadow-lg rounded-full leading-none flex items-center divide-x divide-gray-600">
                   <span class="flex items-center space-x-2 ">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400 -rotate-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -44,7 +44,7 @@ function HeroHome() {
                     </svg>
                     <span class="pr-6 bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 text-sm">Je suis à la recherche d'opportunités</span>
                   </span>
-                  <a class="pl-6 hover:text-white text-gray-400 transition duration-200 text-sm" href = {Pdf} target = "_blank">Découvrez mon CV &rarr;</a>
+                  <a class="pl-6 hover:text-gray-700 dark:hover:text-white text-gray-400 transition duration-200 text-sm" href = {Pdf} target = "_blank">Découvrez mon CV &rarr;</a>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Box */}
-          <div className="bg-slate-800 bg-opacity-60 rounded overflow-hidden">
+          <div className="dark:bg-slate-800 dark:bg-opacity-60 bg-slate-100 bg-opacity-60 rounded overflow-hidden">
             <div className="flex flex-col md:flex-row items-end md:items-start md:justify-between lg:space-x-20">
               <div className="md:min-w-[28rem] p-6 lg:p-10">
                 {/* Filters */}
@@ -113,7 +113,7 @@ function HeroHome() {
                 {/* Content */}
                 <div>
                   <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Convertissez grâce à l'UX</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2 text-gray-700 dark:text-gray-200">Convertissez grâce à l'UX</h3>
                     <ul className="text-lg text-slate-500">
                       J'aide les startups à délivrer :
                       <li className='text-base'> - un produit unique pour ses utilisateurs</li>
@@ -121,13 +121,13 @@ function HeroHome() {
                     </ul>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Du trafic sur votre site mais peu de passage à l'action ?</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2 text-gray-700 dark:text-gray-200">Du trafic sur votre site mais peu de passage à l'action ?</h3>
                     <div className="text-lg text-slate-500">
                       Mauvais taux de rebond, peu de ventes, pas de fidélisation des clients et une mauvaise image de marque.
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Livrer des expériences uniques et agréables</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2 text-gray-700 dark:text-gray-200">Livrer des expériences uniques et agréables</h3>
                     <div className="text-lg text-slate-500">
                       La capacité à provoquer des émotions positives, la facilité d'utilisation, la crédibilité, l'utilité et les performances techniques sont d'autant de grands principes à retenir pour améliorer l'expérience de vos utilisateurs.
                     </div>
