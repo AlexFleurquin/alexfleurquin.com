@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import HeroImage from '../images/Darkmode.jpeg';
 import Pdf from '../pdf/Resume_Alexandre_Fleurquin.pdf';
 import Illustration from '../images/features-illustration-02.svg';
-import FeaturesImage from '../images/hero-illustration.png';
+import FeaturesImage from '../images/profile.jpeg';
 
 function HeroHome() {
 
@@ -53,7 +53,7 @@ function HeroHome() {
             <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200"> Fleurquin</span>
 
             </h1>
-          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Développeur Frontend</p>
+          <p className="text-xl text-gray-400 font-display" data-aos="fade-up" data-aos-delay="200">Développeur Full Stack</p>
             {/* CTA  */}
           <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="600">
@@ -134,7 +134,7 @@ function HeroHome() {
                   </div>
                 </div>
               </div>
-              <img src={FeaturesImage} className="md:max-w-none" width="480" height="414" alt="Feature" />
+              <img src={FeaturesImage} className="md:max-w-none" width="290" height="180" alt="Feature" />
             </div>
           </div>
         </div>
