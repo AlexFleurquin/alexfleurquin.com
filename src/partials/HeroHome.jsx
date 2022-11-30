@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import HeroImage from '../images/Darkmode.jpeg';
 import Pdf from '../pdf/Resume_Alexandre_Fleurquin.pdf';
-import Illustration from '../images/features-illustration-02.svg';
-import FeaturesImage from '../images/profile.jpeg';
+import Presentation from './Presentation';
 
 function HeroHome() {
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
-  const [category, setCategory] = useState('1');
-
   return (
     <section className="relative bg-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -135,114 +131,7 @@ function HeroHome() {
               </div>
             </div>
           </div>
-          {/* Illustration */}
-          <div
-            className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 mt-40 pointer-events-none -z-10"
-            aria-hidden="true"
-          >
-            <img
-              src={Illustration}
-              className="max-w-none"
-              width="1440"
-              height="453"
-              alt="Features 02 Illustration"
-            />
-          </div>
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <div className="py-12 md:py-20">
-              {/* Box */}
-              <div className="dark:bg-gradient-to-r from-gray-900 to-gray-800 dark:bg-opacity-100 bg-slate-100 bg-opacity-60 rounded overflow-hidden">
-                <div className="flex flex-col md:flex-row items-end md:items-start md:justify-between lg:space-x-20">
-                  <div className="md:min-w-[28rem] p-6 lg:p-10">
-                    {/* Filters */}
-                    <div className="mb-6 lg:mb-8">
-                      <div className="flex flex-wrap -m-1.5">
-                        <button
-                          className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
-                            category === '1'
-                              ? 'text-white bg-indigo-500'
-                              : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
-                          }`}
-                          onClick={() => setCategory('1')}
-                        >
-                          Proposition
-                        </button>
-                        <button
-                          className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
-                            category === '2'
-                              ? 'text-white bg-indigo-500'
-                              : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
-                          }`}
-                          onClick={() => setCategory('2')}
-                        >
-                          Problèmes
-                        </button>
-                        <button
-                          className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
-                            category === '3'
-                              ? 'text-white bg-indigo-500'
-                              : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
-                          }`}
-                          onClick={() => setCategory('3')}
-                        >
-                          Bénéfices
-                        </button>
-                      </div>
-                    </div>
-                    {/* Content */}
-                    <div>
-                      <div className={`${category !== '1' && 'hidden'}`}>
-                        <h3 className="h3 font-hkgrotesk mb-2 text-gray-700 dark:text-gray-200">
-                          Convertissez grâce à l'UX
-                        </h3>
-                        <ul className="text-lg text-slate-500">
-                          J'aide les startups à délivrer :
-                          <li className="text-base">
-                            {' '}
-                            - un produit unique pour ses utilisateurs
-                          </li>
-                          <li className="text-base">
-                            {' '}
-                            - délivrer des expériences et des émotions positives
-                          </li>
-                        </ul>
-                      </div>
-                      <div className={`${category !== '2' && 'hidden'}`}>
-                        <h3 className="h3 font-hkgrotesk mb-2 text-gray-700 dark:text-gray-200">
-                          Du trafic sur votre site mais peu de passage à
-                          l'action ?
-                        </h3>
-                        <div className="text-lg text-slate-500">
-                          Mauvais taux de rebond, peu de ventes, pas de
-                          fidélisation des clients et une mauvaise image de
-                          marque.
-                        </div>
-                      </div>
-                      <div className={`${category !== '3' && 'hidden'}`}>
-                        <h3 className="h3 font-hkgrotesk mb-2 text-gray-700 dark:text-gray-200">
-                          Livrer des expériences uniques et agréables
-                        </h3>
-                        <div className="text-lg text-slate-500">
-                          La capacité à provoquer des émotions positives, la
-                          facilité d'utilisation, la crédibilité, l'utilité et
-                          les performances techniques sont d'autant de grands
-                          principes à retenir pour améliorer l'expérience de vos
-                          utilisateurs.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img
-                    src={FeaturesImage}
-                    className="md:max-w-none"
-                    width="290"
-                    height="180"
-                    alt="Feature"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          <Presentation />
         </div>
       </div>
     </section>
