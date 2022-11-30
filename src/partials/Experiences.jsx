@@ -1,6 +1,6 @@
 import React from 'react';
 import OrangeBank from '../images/Orange_Bank.png';
-import Cajoo from '../images/Cajoo.svg';
+import Cajoo from '../images/cajoo.svg';
 import CDC from '../images/Cdc.svg';
 import Nalo from '../images/nalo.svg';
 
