@@ -34,7 +34,7 @@ function Presentation() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === '1'
                           ? 'text-white bg-indigo-500'
-                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-600 border-slate-300 dark:border-slate-600'
+                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-100/80 dark:hover:bg-slate-600/80 hover:text-slate-500 dark:hover:text-slate-100 border-slate-300 dark:border-slate-600'
                       }`}
                       onClick={() => setCategory('1')}
                     >
@@ -44,7 +44,7 @@ function Presentation() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === '2'
                           ? 'text-white bg-indigo-500'
-                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-600 border-slate-300 dark:border-slate-600'
+                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-100/80 dark:hover:bg-slate-600/80 hover:text-slate-500 dark:hover:text-slate-100 border-slate-300 dark:border-slate-600'
                       }`}
                       onClick={() => setCategory('2')}
                     >
@@ -54,7 +54,7 @@ function Presentation() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === '3'
                           ? 'text-white bg-indigo-500'
-                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-600 border-slate-300 dark:border-slate-600'
+                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-100/80 dark:hover:bg-slate-600/80 hover:text-slate-500 dark:hover:text-slate-100 border-slate-300 dark:border-slate-600'
                       }`}
                       onClick={() => setCategory('3')}
                     >
@@ -64,7 +64,7 @@ function Presentation() {
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === '4'
                           ? 'text-white bg-indigo-500'
-                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-600 border-slate-300 dark:border-slate-600'
+                          : 'text-slate-300 bg-transparent dark:bg-slate-700 hover:bg-slate-100/80 dark:hover:bg-slate-600/80 hover:text-slate-500 dark:hover:text-slate-100 border-slate-300 dark:border-slate-600'
                       }`}
                       onClick={() => setCategory('4')}
                     >
