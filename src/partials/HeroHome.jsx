@@ -60,8 +60,8 @@ function HeroHome() {
                   data-aos="fade-down"
                   data-aos-delay="800"
                 >
-                  <div class="absolute -inset-0.5 dark:bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                  <div class="relative px-4 py-2 dark:bg-gray-900 border dark:border-none hover:shadow-lg rounded-full leading-none flex items-center divide-x divide-gray-600">
+                  <div class="absolute -inset-0.5 dark:bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                  <div class="relative px-4 py-2 hover:dark:bg-gray-900 border dark:border-slate-800 hover:shadow-lg rounded-full leading-none flex items-center divide-x divide-gray-600">
                     <span class="flex items-center space-x-2 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -90,6 +90,7 @@ function HeroHome() {
                       Découvrez mon CV &rarr;
                     </a>
                   </div>
+                  <div></div>
                 </div>
               </div>
             </div>
@@ -150,7 +151,7 @@ function HeroHome() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20">
               {/* Box */}
-              <div className="dark:bg-slate-800 dark:bg-opacity-60 bg-slate-100 bg-opacity-60 rounded overflow-hidden">
+              <div className="dark:bg-gradient-to-r from-gray-900 to-gray-800 dark:bg-opacity-100 bg-slate-100 bg-opacity-60 rounded overflow-hidden">
                 <div className="flex flex-col md:flex-row items-end md:items-start md:justify-between lg:space-x-20">
                   <div className="md:min-w-[28rem] p-6 lg:p-10">
                     {/* Filters */}
