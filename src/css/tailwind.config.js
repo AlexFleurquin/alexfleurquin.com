@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    './index.html',
-    './src/**/*.{js,jsx,ts,tsx}',
-  ],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -36,11 +33,11 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        'sans': ['Inter', 'sans-serif'],
-        'body': ['Playfair Display', 'serif'],
-        'display': ['Caveat', 'cursive'],
-        'mono': ['Heebo', 'sans-serif'],
-        'custom': ['Oxygen', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
+        body: ['Playfair Display', 'serif'],
+        display: ['Caveat', 'cursive'],
+        mono: ['Heebo', 'sans-serif'],
+        custom: ['Oxygen', 'sans-serif'],
       },
       fontSize: {
         xs: '0.75rem',
@@ -55,7 +52,7 @@ module.exports = {
         '6xl': '4rem',
       },
       inset: {
-        'full': '100%',
+        full: '100%',
       },
       letterSpacing: {
         tighter: '-0.02em',
@@ -66,14 +63,12 @@ module.exports = {
         widest: '0.4em',
       },
       minWidth: {
-        '10': '2.5rem',
+        10: '2.5rem',
       },
       scale: {
-        '98': '.98'
+        98: '.98',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [require('@tailwindcss/forms')],
 };
