@@ -29,21 +29,23 @@ function HeroFeatures() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-24">
         <div className="grid grid-rows-3 grid-cols-4 gap-4" id="cards">
           <div
-            className="card col-span-3 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            className="card col-span-3 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-md hover:shadow-lg dark:shadow-md dark:hover:shadow-lg dark:bg-gray-800/40"
             onMouseMove={handleOnMouseMove}
           >
             <div className="h-full flex flex-col justify-between">
               <div className="flex">
                 <Product />
                 <a href="#">
-                  <h5 className="ml-2 font-custom mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
+                  <h5 className="ml-2 font-custom mb-2 text-2xl font-semibold tracking-tight text-gray-800 dark:text-gray-200">
                     Product Management
                   </h5>
                 </a>
               </div>
-              <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              {/* <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
                 +3 ans en conseil en transformation digitale
-              </p>
+              </p> */}
               <a
                 href="#"
                 className="inline-flex items-center text-sm text-gray-600 hover:underline"
@@ -67,6 +69,8 @@ function HeroFeatures() {
             </div>
           </div>
           <div
+            data-aos="fade-down"
+            data-aos-delay="700"
             onMouseMove={handleOnMouseMove}
             className="col-span-1 row-span-3 dark:bg-gray-800/40 rounded-xl"
           >
@@ -76,6 +80,8 @@ function HeroFeatures() {
             />
           </div>
           <div
+            data-aos="fade-left"
+            data-aos-delay="100"
             onMouseMove={handleOnMouseMove}
             className="card col-span-1 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
           >
@@ -83,14 +89,14 @@ function HeroFeatures() {
               <div className="flex">
                 <Business />
                 <a href="#">
-                  <h5 className="font-custom ml-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="font-custom ml-2 text-2xl font-semibold tracking-tight text-gray-700 dark:text-white">
                     Business
                   </h5>
                 </a>
               </div>
-              <p className="font-normal text-gray-500 dark:text-gray-400 ">
+              {/* <p className="font-normal text-gray-500 dark:text-gray-400 ">
                 +3 ans en conseil en transformation digitale
-              </p>
+              </p> */}
               <a
                 href="#"
                 className="inline-flex text-sm text-gray-600 hover:underline"
@@ -114,6 +120,8 @@ function HeroFeatures() {
             </div>
           </div>
           <div
+            data-aos="fade-up"
+            data-aos-delay="400"
             onMouseMove={handleOnMouseMove}
             className="card col-span-2 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
           >
@@ -126,9 +134,9 @@ function HeroFeatures() {
                   </h5>
                 </a>
               </div>
-              <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
+              {/* <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
                 +3 ans en conseil en transformation digitale
-              </p>
+              </p> */}
               <a
                 href="#"
                 className="inline-flex text-sm text-gray-600 hover:underline"
@@ -152,6 +160,8 @@ function HeroFeatures() {
             </div>
           </div>
           <div
+            data-aos="fade-right"
+            data-aos-delay="300"
             onMouseMove={handleOnMouseMove}
             className="card col-span-2 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
           >
@@ -164,9 +174,9 @@ function HeroFeatures() {
                   </h5>
                 </a>
               </div>
-              <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
+              {/* <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
                 +3 ans en conseil en transformation digitale
-              </p>
+              </p> */}
               <a
                 href="#"
                 className="inline-flex items-center text-sm text-gray-600 hover:underline"
@@ -190,6 +200,8 @@ function HeroFeatures() {
             </div>
           </div>
           <div
+            data-aos="fade-up"
+            data-aos-delay="900"
             onMouseMove={handleOnMouseMove}
             className="card col-span-1 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
           >

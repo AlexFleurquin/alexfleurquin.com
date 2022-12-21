@@ -6,6 +6,19 @@ import Presentation from './Presentation';
 import HeroFeatures from './HeroFeatures';
 
 function HeroHome() {
+  const handleOnMouseMove = (e) => {
+    const { currentTarget: target } = e;
+
+    const rect = target.getBoundingClientRect(),
+      x = e.clientX - rect.left,
+      y = e.clientY - rect.top;
+
+    target.style.setProperty('--mouse-x', `${x}px`);
+    target.style.setProperty('--mouse-y', `${y}px`);
+  };
+  for (const cta of document.querySelectorAll('.cta')) {
+    cta.onmousemove = (e) => handleOnMouseMove(e);
+  }
   return (
     <section className="relative bg-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -81,7 +94,8 @@ function HeroHome() {
             <div className="max-w-xs py-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
-                  className="btn rounded-md bg-transparent border border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white w-full sm:w-auto sm:ml-4"
+                  onMouseMove={handleOnMouseMove}
+                  className="btn cta font-custom font-bold rounded-md bg-transparent border border-gray-800 text-gray-800 hover:shadow-xl dark:text-white w-full sm:w-auto sm:ml-4"
                   href="mailto:alexandre.fleurquin@gmail.com"
                 >
                   Me contacter

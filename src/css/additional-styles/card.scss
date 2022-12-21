@@ -31,3 +31,33 @@
   );
   z-index: 3;
 }
+
+.cta {
+  cursor: pointer;
+  position: relative;
+}
+
+.cta:hover::before {
+  opacity: 1;
+}
+
+.cta::before {
+  border-radius: inherit;
+  content: '';
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.cta::before {
+  background: radial-gradient(
+    200px circle at var(--mouse-x) var(--mouse-y),
+    rgba(111, 255, 161, 0.075),
+    transparent 40%
+  );
+  z-index: 3;
+}

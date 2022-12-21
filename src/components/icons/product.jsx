@@ -6,7 +6,7 @@ function Product() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-10 h-10 rounded-lg p-2 mb-2 text-gray-500 dark:text-gray-500 bg-gray-700 shadow-xl"
+      className="w-10 h-10 rounded-lg p-2 mb-2 border border-gray-200 dark:border-0 bg-white text-gray-300 dark:text-gray-500 dark:bg-gray-700 shadow-sm"
     >
       <path
         strokeLinecap="round"
