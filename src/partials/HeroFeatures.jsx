@@ -28,7 +28,10 @@ function HeroFeatures() {
     <>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-24">
         <div className="grid grid-rows-3 grid-cols-4 gap-4" id="cards">
-          <div className="card col-span-3 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40 ">
+          <div
+            className="card col-span-3 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
+            onMouseMove={handleOnMouseMove}
+          >
             <div className="h-full flex flex-col justify-between">
               <div className="flex">
                 <Product />
@@ -63,13 +66,19 @@ function HeroFeatures() {
               </a>
             </div>
           </div>
-          <div className="col-span-1 row-span-3 dark:bg-gray-800/40 rounded-xl">
+          <div
+            onMouseMove={handleOnMouseMove}
+            className="col-span-1 row-span-3 dark:bg-gray-800/40 rounded-xl"
+          >
             <img
               className="card object-cover rounded-lg w-full h-full"
               src={FeaturesImage}
             />
           </div>
-          <div className="card col-span-1 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40">
+          <div
+            onMouseMove={handleOnMouseMove}
+            className="card col-span-1 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
+          >
             <div className="h-full flex flex-col justify-between">
               <div className="flex">
                 <Business />
@@ -104,7 +113,10 @@ function HeroFeatures() {
               </a>
             </div>
           </div>
-          <div className="card col-span-2 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40">
+          <div
+            onMouseMove={handleOnMouseMove}
+            className="card col-span-2 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
+          >
             <div className="h-full flex flex-col justify-between">
               <div className="flex space-x-2 ">
                 <Design />
@@ -139,7 +151,10 @@ function HeroFeatures() {
               </a>
             </div>
           </div>
-          <div className="card col-span-2 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40">
+          <div
+            onMouseMove={handleOnMouseMove}
+            className="card col-span-2 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
+          >
             <div className="h-full flex flex-col justify-between">
               <div className="flex">
                 <Tech />
@@ -174,7 +189,10 @@ function HeroFeatures() {
               </a>
             </div>
           </div>
-          <div className="card col-span-1 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40">
+          <div
+            onMouseMove={handleOnMouseMove}
+            className="card col-span-1 p-4 bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40"
+          >
             <div className="h-full flex flex-col justify-between">
               <div className="flex">
                 <Agile />
