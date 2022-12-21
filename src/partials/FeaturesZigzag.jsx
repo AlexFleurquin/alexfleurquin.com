@@ -8,7 +8,7 @@ import SpotifyImage from '../images/spotify-dark.png';
 
 function FeaturesZigzag() {
   return (
-    <section className="bg-white dark:bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-900 to-black">
+    <section className="bg-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}

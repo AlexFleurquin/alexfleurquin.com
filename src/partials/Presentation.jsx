@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Illustration from '../images/features-illustration-02.svg';
 import FeaturesImage from '../images/profile.jpeg';
 import Experiences from './Experiences';
 import Formations from './Formations';
@@ -9,18 +8,6 @@ function Presentation() {
   const [category, setCategory] = useState('1');
   return (
     <>
-      <div
-        className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 mt-40 pointer-events-none -z-10"
-        aria-hidden="true"
-      >
-        <img
-          src={Illustration}
-          className="max-w-none"
-          width="1440"
-          height="453"
-          alt="Features 02 Illustration"
-        />
-      </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Box */}

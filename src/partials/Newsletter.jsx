@@ -43,7 +43,7 @@ function Newsletter() {
       <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 ">
         {/* CTA box */}
         <div
-          className="relative bg-slate-100 dark:bg-gradient-to-r from-gray-800 to-gray-700 py-10 px-8 md:py-16 md:px-12 rounded-md drop-shadow-xl"
+          className="relative bg-white border border-gray-200 dark:border-gray-800 dark:hover:border-gray-700 rounded-lg shadow-sm hover:shadow-md dark:shadow-sm dark:hover:shadow-md dark:bg-gray-800/40 py-10 px-8 md:py-16 md:px-12 "
           data-aos="fade-up"
         >
           <IllusttrationNewsletter />
@@ -51,7 +51,7 @@ function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-gray-800 dark:text-white mb-2">
+              <h3 className="h3 font-custom text-gray-800 dark:text-white mb-2">
                 <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200">
                   {' '}
                   Jinial{' '}
@@ -101,12 +101,12 @@ function Newsletter() {
                     name="email"
                     value={email}
                     onChange={handleEmail}
-                    className="w-1/2 appearance-none bg-white dark:bg-slate-600 border border-slate-300 dark:border-slate-500 focus:border-slate-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 dark:text-white text-slate-700 placeholder-slate-400 dark:placeholder-slate-400"
+                    className="w-1/2 appearance-none bg-white dark:bg-slate-600 border border-slate-300 dark:border-slate-500 focus:border-slate-300 rounded-xl px-4 py-3 mb-2 sm:mb-0 sm:mr-2 dark:text-white text-slate-700 placeholder-slate-400 dark:placeholder-slate-400"
                     placeholder="mail@mail.com"
                     aria-label="Email"
                   />
                   <button
-                    className="btn border-0 text-white bg-slate-400 dark:bg-gray-900 hover:dark:bg-black hover:shadow-lg hover:bg-black"
+                    className="btn text-white bg-gray-800 dark:bg-gray-800 hover:dark:bg-black hover:shadow-lg hover:bg-black border dark:border-gray-700 rounded-xl"
                     type="submit"
                   >
                     Être notifié
