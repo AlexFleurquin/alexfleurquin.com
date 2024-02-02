@@ -101,12 +101,12 @@ function Newsletter() {
                     name="email"
                     value={email}
                     onChange={handleEmail}
-                    className="w-1/2 appearance-none bg-white dark:bg-slate-600 border border-slate-300 dark:border-slate-500 focus:border-slate-300 rounded-xl px-4 py-3 mb-2 sm:mb-0 sm:mr-2 dark:text-white text-slate-700 placeholder-slate-400 dark:placeholder-slate-400"
-                    placeholder="mail@mail.com"
+                    className="w-1/2 appearance-none bg-white dark:bg-slate-600 border border-slate-300 dark:border-slate-500 focus:border-slate-300 rounded-lg px-4 py-2 mb-2 sm:mb-0 sm:mr-2 dark:text-white text-slate-700 placeholder-slate-400 dark:placeholder-slate-400"
+                    placeholder="hello@alexfleurquin.com"
                     aria-label="Email"
                   />
                   <button
-                    className="btn text-white bg-gray-800 dark:bg-gray-800 hover:dark:bg-black hover:shadow-lg hover:bg-black border dark:border-gray-700 rounded-xl"
+                    className="btn py-1 cta font-custom font-bold rounded-lg bg-gray-700 dark:bg-white border border-transparent hover:shadow-xl text-white dark:text-gray-700 sm:w-auto "
                     type="submit"
                   >
                     Être notifié

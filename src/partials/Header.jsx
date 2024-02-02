@@ -57,39 +57,45 @@ function Header() {
 
           {/* Desktop navigation */}
           <nav className="hidden justify-end md:flex md:grow">
-            {/* Desktop menu links
+            {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link to="/features" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link to="/pricing" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">About us</Link>
-              </li>
-
-            </ul> */}
-
-            {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
-                <a
-                  href="https://spotify-alexfleurquin.vercel.app/"
-                  target="_blank"
+                <Link
+                  to="/about"
                   smooth={true}
                   spy={true}
                   duration={1000}
-                  className="btn-sm bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-orange-200 hover:bg-blue-700 ml-3"
+                  className="menu-item"
                 >
-                  Découvrir mon clone de Spotify
-                </a>
+                  About
+                </Link>
               </li>
+              <li>
+                <Link
+                  to="/experiences"
+                  smooth={true}
+                  spy={true}
+                  duration={1000}
+                  className="menu-item"
+                >
+                  Expériences
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/changelog"
+                  smooth={true}
+                  spy={true}
+                  duration={1000}
+                  className="menu-item"
+                >
+                  Changelog
+                </Link>
+              </li>
+            </ul>
+
+            {/* Desktop sign in links */}
+            <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <ThemeSwitch />
               </li>

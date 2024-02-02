@@ -6,6 +6,8 @@ import './css/style.scss';
 import AOS from 'aos';
 
 import Home from './pages/Home';
+import About from './pages/About';
+import Changelog from './pages/Changelog';
 import PageNotFound from './pages/PageNotFound';
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/changelog" element={<Changelog />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
